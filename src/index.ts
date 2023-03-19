@@ -9,7 +9,7 @@ const app: express.Application = express();
 const port: number = 3000;
 
 app.get("/", (_req, _res) => {
-  _res.status(200).json({ hello: "world" });
+  _res.status(200).json({ hello: "Online" });
 });
 
 // Handle RSS Feed Fetch
